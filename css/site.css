@@ -1,0 +1,97 @@
+#close_project {
+	float: right;
+	margin-top: 28px;
+}
+
+
+.general-alert-message {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+}
+.general-alert-message .alert {
+	border-bottom: 0 none;
+	border-radius: 5px 5px 0 0;
+	float: none;
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+
+.elements_list .list-group-item {
+	position: relative;
+}
+.elements_list .list-group-item > a {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	opacity: 0;
+	height: 0;
+	line-height: 0;
+	color: transparent;
+	transition: all .2s linear;
+	display: block;
+}
+.elements_list .list-group-item:hover > a {
+	opacity: 1;
+	height: auto;
+	line-height: 1.4;
+	color: #333;
+}
+.elements_list .list-group-item > .edit {
+	right: 64px;
+}
+.elements_list > li > a {
+	margin-bottom: 10px;
+}
+
+
+#console_buttons button {margin: 0 2px;}
+.panel-body table {width: 100%;}
+#console_log {
+	background-color: #444;
+	color: #fff;
+	font-family:"Courier New";
+	width: 100%;
+	float: left;
+	max-height:300px;
+	min-height:150px;
+	overflow-y:scroll;
+}
+.well > .container {
+	float: left;
+	width: 100%;
+}
+
+
+
+
+/**	Console			**/
+.classButton header{
+	float: left;
+	cursor: pointer;
+}
+.classButton + .classButton {
+	margin-left: 5px;
+}
+.classButton header{
+	background-color: #333;
+	color: #fff;
+	height: 75px;
+	width: 75px;
+	position: relative;
+}
+.classButton header .title{
+	position: absolute;
+	bottom: 0;
+	width: 60px;
+	font-size: 14px;
+	line-height: 11px;
+	word-wrap: break-word;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+}
